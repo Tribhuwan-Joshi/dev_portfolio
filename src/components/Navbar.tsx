@@ -1,9 +1,24 @@
-import React from 'react'
-
-function Navbar() {
+import React from "react";
+import pfp from "../assets/pfp.png";
+function Pfp() {
   return (
-    <div className="h-[100vh] fixed bg-[#bd5d38] w-[18%] min-w-[80px] text-[#868e96]"></div>
+    <>
+      <img
+        src={pfp}
+        className="rounded-full max-w-full w-[5rem]"
+        alt="pfp"
+        aria-label="pfp of tjsm"
+      />
+    </>
   );
 }
 
-export default Navbar
+function Navbar() {
+  return (
+    <div className="  bg-[#bd5d38] h-[10%] w-full fixed sm:h-[100vh]    sm:w-[18%]  text-[#868e96]">
+      <Pfp />
+    </div>
+  );
+}
+
+export default Navbar;
