@@ -2,7 +2,7 @@ import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 
 function App() {
-  return <div className="flex flex-col sm:flex-row ">
+  return <div id="page-top" className="flex h-[100vh]   flex-col xs:flex-row ">
 <Navbar/>
 <Main/>
 

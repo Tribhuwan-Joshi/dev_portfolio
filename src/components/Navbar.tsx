@@ -15,9 +15,18 @@ function Pfp() {
 
 function Navbar() {
   return (
-    <div className="  bg-[#bd5d38] h-[10%] w-full fixed sm:h-[100vh]    sm:w-[18%]  text-[#868e96]">
-      <Pfp />
-    </div>
+    <nav className="bg-[#bd5d38] sticky  px-3 tracking-wide py-2 xs:w-[20%] xs:max-w-[17rem] xs:min-w-[8rem] flex justify-between items-center">
+      <h1 className="text-white  xs:hidden text-[1.3rem]  tracking-wider">
+        Tribhuwan Joshi
+      </h1>
+      <button className="border box-content  xs:hidden border-[rgba(255,255,255,.1)] px-4 py-3 rounded-[0.25rem] transition duration-400  ease-in-out  hover:border-white focus:border-white">
+        <div className="hamburger  flex flex-col gap-[0.4rem] justify-evenly">
+          <div className="bar bg-[rgba(255,255,255,.5)] w-[1.4rem] rounded-md   h-[0.10rem] "></div>
+          <div className="bar bg-[rgba(255,255,255,.5)] w-[1.4rem]  rounded-md   h-[0.10rem] "></div>
+          <div className="bar bg-[rgba(255,255,255,.5)] w-[1.4rem]  rounded-md   h-[0.10rem] "></div>
+        </div>
+      </button>
+    </nav>
   );
 }
 
