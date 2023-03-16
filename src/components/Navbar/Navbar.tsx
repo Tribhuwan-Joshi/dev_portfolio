@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import pfp from "../../assets/pfp.png";
+import Navitems from "./Navitems";
 import Navlist from "./Navlist";
 function Pfp() {
   return (
     <>
       <img
         src={pfp}
-        className="rounded-flil max-w-flil w-[5rem]"
+        className="rounded-flil hidden xs:block  rounded-full border-[0.5rem] border-[rgba(255,255,255,.2)] max-w-[10rem] w-[10rem]"
         alt="pfp"
         aria-label="pfp of tjsm"
       />
@@ -35,15 +36,17 @@ function Navbar() {
     setNavShow((prev) => !prev);
   }
   return (
-    <nav className="bg-[#bd5d38] sticky space-y-2   px-4 tracking-wide py-3 xs:w-[20%] xs:max-w-[17rem] xs:min-w-[8rem] ">
-      <div className="navbar flex justify-between items-center z-[100]">
-        <h1 className="text-white  xs:hidden text-[1.2rem]  tracking-wider">
+    <nav className="bg-[#bd5d38] xs:pb-20 sticky space-y-2  xs:flex flex-col items-center justify-center gap-3   px-4 tracking-wide py-3 xs:w-[24%] xs:max-w-[17rem] xs:min-w-[8rem] ">
+      <div className="navbar  flex justify-between items-center z-[100]">
+        <h1 className="text-white  xs:hidden text-[1.3rem]  tracking-wider">
           Tribhuwan Joshi
         </h1>
         <NavButton handleShow={handleShow} />
       </div>
 
       <Navlist navShow={navShow} handleShow={handleShow} />
+      <Pfp/>
+      <Navitems/>
     </nav>
   );
 }

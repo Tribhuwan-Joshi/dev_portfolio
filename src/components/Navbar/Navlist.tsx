@@ -11,7 +11,6 @@ function Navlist({
 
   function handleIntersection(
     entries: IntersectionObserverEntry[],
-    observer: IntersectionObserver
   ): void {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
@@ -22,7 +21,7 @@ function Navlist({
 
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersection, {
-      threshold: 0.5, // set the threshold to 50%
+      threshold: 0.7, // set the threshold to 50%
     });
 
     const sectionElements = document.querySelectorAll("section");
@@ -35,7 +34,7 @@ function Navlist({
   }, []);
   return (
     <div
-      className="bg-[#bd5d38] fixed -z-50 text-[rgba(255,255,255,.5)]  w-[100%] left-0 px-4 pb-2 transition-all duration-500 ease-in-out"
+      className="bg-[#bd5d38] fixed -z-50 text-[rgba(255,255,255,.5)] xs:hidden   w-[100%] left-0 px-4 pb-2 transition-all duration-500 ease-in-out"
       style={{
         transform: navShow ? "scaleY(100%) " : "scaleY(-100%)",
         opacity: navShow ? "1" : "0",
