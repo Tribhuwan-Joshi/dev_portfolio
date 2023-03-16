@@ -28,8 +28,10 @@ function Navitems() {
         {" "}
         <a
           className={`${
-            active === "about" ? "text-white" : ""
-          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block hover:text-[rgba(255,255,255,.75)]`}
+            active === "about"
+              ? "text-white"
+              : "hover:text-[rgba(255,255,255,.75)]"
+          }   py-[0.5rem] px-[1.2rem] text-[1rem] w-full block `}
           href="#about"
         >
           ABOUT{" "}
@@ -39,8 +41,10 @@ function Navitems() {
         {" "}
         <a
           className={`${
-            active === "skills" ? "text-white" : ""
-          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block hover:text-[rgba(255,255,255,.75)]`}
+            active === "skills"
+              ? "text-white"
+              : "hover:text-[rgba(255,255,255,.75)]"
+          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block `}
           href="#skills"
         >
           SKILLS{" "}
@@ -50,8 +54,10 @@ function Navitems() {
         {" "}
         <a
           className={`${
-            active === "projects" ? "text-white" : ""
-          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block hover:text-[rgba(255,255,255,.75)]`}
+            active === "projects"
+              ? "text-white"
+              : "hover:text-[rgba(255,255,255,.75)]"
+          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block `}
           href="#projects"
         >
           PROJECTS{" "}
@@ -61,9 +67,11 @@ function Navitems() {
         {" "}
         <a
           className={`${
-            active === "interests" ? "text-white" : ""
-          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block hover:text-[rgba(255,255,255,.75)]`}
-          href="interests"
+            active === "interests"
+              ? "text-white"
+              : "hover:text-[rgba(255,255,255,.75)]"
+          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block `}
+          href="#interests"
         >
           INTERESTS{" "}
         </a>
@@ -72,9 +80,9 @@ function Navitems() {
         {" "}
         <a
           className={`${
-            active === "certifications" ? "text-white" : ""
-          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block hover:text-[rgba(255,255,255,.75)]`}
-          href="certifications"
+            active === "certifications" ? "text-white" : "hover:text-[rgba(255,255,255,.75)]"
+          } py-[0.5rem] px-[1.2rem] text-[1rem] w-full block `}
+          href="#certifications"
         >
           CERTIFICATIONS{" "}
         </a>
