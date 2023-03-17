@@ -36,7 +36,7 @@ function Navbar() {
     setNavShow((prev) => !prev);
   }
   return (
-    <nav className="bg-[#bd5d38] xs:pb-20 sticky space-y-2  xs:flex flex-col items-center justify-center gap-3   px-4 tracking-wide py-3 xs:w-[24%] xs:max-w-[17rem] xs:min-w-[8rem] ">
+    <nav className="bg-[#bd5d38] xs:pb-20 sticky space-y-2  xs:flex sm:justify-center flex-col items-center  justify-center gap-3   px-4 tracking-wide py-3 xs:w-[24%] xs:max-w-[17rem] xs:min-w-[8rem] ">
       <div className="navbar  flex justify-between items-center z-[100]">
         <h1 className="text-white  xs:hidden text-[1.3rem]  tracking-wider">
           Tribhuwan Joshi
@@ -45,8 +45,8 @@ function Navbar() {
       </div>
 
       <Navlist navShow={navShow} handleShow={handleShow} />
-      <Pfp/>
-      <Navitems/>
+      <Pfp />
+      <Navitems />
     </nav>
   );
 }

@@ -21,7 +21,7 @@ function Navitems() {
   }, []);
   return (
     <ul
-      className="text-center hidden  xs:flex flex-col w-full text-[rgba(255,255,255,.5)] font-semibold"
+      className="text-center hidden  xs:flex flex-col  w-full text-[rgba(255,255,255,.5)] font-semibold"
       style={{ fontFamily: "Open Sans , serif" }}
     >
       <li>

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
+   darkMode: 'media',
   content: [
     "./src/**/*.{html,js,jsx,ts,tsx}",
     "./components/**/*.{html,tsx,js}",

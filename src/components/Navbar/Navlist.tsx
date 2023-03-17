@@ -9,9 +9,7 @@ function Navlist({
 }) {
   const [activeSection, setActiveSection] = useState("");
 
-  function handleIntersection(
-    entries: IntersectionObserverEntry[],
-  ): void {
+  function handleIntersection(entries: IntersectionObserverEntry[]): void {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         setActiveSection(entry.target.id);
