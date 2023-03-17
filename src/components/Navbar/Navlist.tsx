@@ -37,6 +37,7 @@ function Navlist({
       style={{
         transform: navShow ? "scaleY(100%) " : "scaleY(-100%)",
         opacity: navShow ? "1" : "0",
+        
       }}
     >
       <ul className="xs:none flex flex-col gap-3 pb-2">

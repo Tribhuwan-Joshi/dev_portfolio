@@ -7,7 +7,7 @@ function Icons(){
           rel="noreferrer"
           target="_blank"
         >
-          <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center items-center transition duration-300 ease-in-out hover:bg-[#bd5d38]">
+          <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center items-center transition duration-200 ease-in-out hover:bg-[#bd5d38]">
             <i className="fab fa-github text-white fa-xl"></i>
           </div>
         </a>
@@ -18,7 +18,7 @@ function Icons(){
           rel="noreferrer"
           target="_blank"
         >
-          <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center transition duration-300 ease-in-out items-center hover:bg-[#bd5d38]">
+          <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center transition duration-200 ease-in-out items-center hover:bg-[#bd5d38]">
             <i className="fab fa-linkedin text-white fa-xl"></i>
           </div>
         </a>
@@ -29,7 +29,7 @@ function Icons(){
           rel="noreferrer"
           target="_blank"
         >
-          <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center items-center transition duration-300 ease-in-out  hover:bg-[#bd5d38]">
+          <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center items-center transition duration-200 ease-in-out  hover:bg-[#bd5d38]">
             <i className="fab fa-twitter text-white fa-xl"></i>
           </div>
         </a>

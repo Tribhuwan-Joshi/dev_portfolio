@@ -7,6 +7,7 @@ import weatherapp from "../assets/weatherapp.png";
 
 
 import { VscLinkExternal } from "react-icons/vsc";
+import {BsGithub} from "react-icons/bs"
 type ProjectProps = {
   title: string;
   img: string;
@@ -16,19 +17,19 @@ type ProjectProps = {
 };
 function ProjectCard({ title, img, details, github, live }: ProjectProps) {
   return (
-    <div className="border-[#343a40] rounded-md text-[#666b6f] border-[1px] p-1 cursor-pointer transition 200 ease-in-out hover:-translate-y-2">
+    <div className="border-[#bd5d38] rounded-md text-[#666b6f] border-[1px] p-1 cursor-pointer transition 200 ease-in-out hover:-translate-y-2">
       <img src={img} alt="SnapHunt" />
       <div className="flex justify-between items-center">
         <div>
           <h3 className="text-[1.5rem]">{title}</h3>
-          <p>{details}</p>
+          <p className="text-[1rem]">{details}</p>
         </div>
         <div className="flex gap-4 items-end self-end ">
-          <a href={live} target="_blank" rel="noreferrer">
+          <a href={live} title="Live" target="_blank" rel="noreferrer">
             <VscLinkExternal size="1.3rem" />
           </a>
-          <a href={github} target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-xl fa-github"></i>
+          <a href={github} title="code" target="_blank" rel="noreferrer">
+           <BsGithub size="1.3rem"/>
           </a>
         </div>
       </div>
@@ -76,7 +77,7 @@ export default function Projects() {
             img={weatherapp}
             live="https://tribhuwan-joshi.github.io/weather-app/"
             github="https://github.com/Tribhuwan-Joshi/weather-app"
-            details="Weather app with minecraft theme"
+            details="Weather app with minecraft theme using openweather API"
           />
         </div>
       </div>
