@@ -31,6 +31,7 @@ function Navlist({
     return () => observer.disconnect();
   }, []);
   return (
+
     <div
       className="bg-[#bd5d38] fixed -z-50 text-[rgba(255,255,255,.5)] xs:hidden   w-[100%] left-0 px-4 pb-2 transition-all duration-500 ease-in-out"
       style={{
@@ -38,7 +39,7 @@ function Navlist({
         opacity: navShow ? "1" : "0",
       }}
     >
-      <ul className="flex flex-col gap-3 pb-2">
+      <ul className="xs:none flex flex-col gap-3 pb-2">
         <li>
           <a
             onClick={handleShow}
@@ -99,6 +100,7 @@ function Navlist({
         </li>
       </ul>
     </div>
+          
   );
 }
 
