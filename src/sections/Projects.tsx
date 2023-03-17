@@ -1,4 +1,11 @@
 import React from "react";
+import netflix from "../assets/netflix.png"
+import snaphunt from "../assets/snaphunt.png";
+import memory from "../assets/memory.png";
+import weatherapp from "../assets/weatherapp.png";
+
+
+
 import { VscLinkExternal } from "react-icons/vsc";
 type ProjectProps = {
   title: string;
@@ -35,38 +42,38 @@ export default function Projects() {
       id="projects"
       className="min-h-full border-b-[1px] p-[3rem] flex   flex-col border-[#dee2e6] text-[#545b61]"
     >
-      <div className="content sape-y-12 w-[80%]">
+      <div className="content sape-y-12 w-[85%] ">
         <h2
           className="text-[3.5rem] uppercase font-[700] mb-[3rem] text-[#343a40]"
           style={{ fontFamily: "'Saira Extra Condensed',serif" }}
         >
           Projects
         </h2>
-        <div className="projects grid grid-cols-2 gap-10">
+        <div className="projects grid grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] gap-10">
           <ProjectCard
             title="Snap-Hunt"
-            img="https://raw.githubusercontent.com/Tribhuwan-Joshi/Snap-Hunt/main/public/snapHunt.png"
+            img={snaphunt}
             live="https://tribhuwan-joshi.github.io/Snap-Hunt/"
             github="https://github.com/Tribhuwan-Joshi/Snap-Hunt"
             details="A photo tagging game with global leaderboard"
           />
           <ProjectCard
             title="Netflix 2.0"
-            img="https://camo.githubusercontent.com/8eed4d8beb39d3dd54613f3dddf7d0801d6c41989da3b7605212c0ca8b1dc10f/68747470733a2f2f692e6962622e636f2f4457594a4734792f696d6167652e706e673f773d31303234"
+            img={netflix}
             live="https://netflix-a53c5.web.app/"
             github="https://github.com/Tribhuwan-Joshi/Netflix-2.0"
             details="Netflix clone with Firebase authentication"
           />
           <ProjectCard
             title="Memory Cards"
-            img="https://raw.githubusercontent.com/Tribhuwan-Joshi/memory-card/main/public/preview.png"
+            img={memory}
             live="https://tribhuwan-joshi.github.io/memory-card/"
             github="https://github.com/Tribhuwan-Joshi/memory-card"
             details="Challenge your brain with cute dog cards"
           />
           <ProjectCard
             title="Weather Craft"
-            img="https://raw.githubusercontent.com/Tribhuwan-Joshi/weather-app/main/src/Images/preview.png"
+            img={weatherapp}
             live="https://tribhuwan-joshi.github.io/weather-app/"
             github="https://github.com/Tribhuwan-Joshi/weather-app"
             details="Weather app with minecraft theme"
