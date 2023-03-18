@@ -1,6 +1,6 @@
 import React from "react";
 import { VscLinkExternal } from "react-icons/vsc";
-import {FaStar} from "react-icons/fa"
+import { FaStar } from "react-icons/fa";
 function Certifcates() {
   return (
     <div className="text-[1.2rem] mt-0  inline-grid grid-cols-[auto_1fr_auto] gap-y-6 justify-items-start gap-x-4 items-center grid-gap-[1.2rem] ">
@@ -52,11 +52,11 @@ export default function Certifications() {
   return (
     <section
       id="certifications"
-      className="min-h-full leading-[2.8rem] border-b-[2px] p-[3rem]  flex  sm:items-center border-[#dee2e6]"
+      className="min-h-full text-gray-700  border-b-[2px] p-[3rem]  flex  sm:items-center border-[#dee2e6]"
     >
-      <div className="content space-y-12">
+      <div className="content">
         <h2
-          className="text-[3.5rem] font-[700]  mb-[3rem] uppercase text-[#343a40]"
+          className="text-[3.5rem] leading-[3.1rem] font-[700]  mb-[3rem] uppercase text-[#343a40]"
           style={{ fontFamily: "'Saira Extra Condensed',serif" }}
         >
           Certifications And Learning

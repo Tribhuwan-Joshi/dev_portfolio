@@ -1,3 +1,5 @@
+import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+
 function Icons() {
   return (
     <ul className="icons flex gap-5 w-[20%] min-w-[200px] mt-[5rem] h-[100px]">
@@ -8,7 +10,7 @@ function Icons() {
           target="_blank"
         >
           <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center items-center transition duration-200 ease-in-out hover:bg-[#bd5d38]">
-            <i className="fab fa-github text-white fa-xl"></i>
+            <BsGithub className="text-white text-2xl" />
           </div>
         </a>
       </li>
@@ -19,7 +21,7 @@ function Icons() {
           target="_blank"
         >
           <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center transition duration-200 ease-in-out items-center hover:bg-[#bd5d38]">
-            <i className="fab fa-linkedin text-white fa-xl"></i>
+            <BsLinkedin className="text-white text-2xl" />
           </div>
         </a>
       </li>
@@ -30,7 +32,7 @@ function Icons() {
           target="_blank"
         >
           <div className="bg-[#495057] w-[3rem] h-[3rem] rounded-full flex justify-center items-center transition duration-200 ease-in-out  hover:bg-[#bd5d38]">
-            <i className="fab fa-twitter text-white fa-xl"></i>
+            <BsTwitter className="text-white text-2xl" />
           </div>
         </a>
       </li>

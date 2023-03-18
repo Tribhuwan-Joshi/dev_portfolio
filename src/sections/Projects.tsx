@@ -17,7 +17,7 @@ type ProjectProps = {
 };
 function ProjectCard({ title, img, details, github, live }: ProjectProps) {
   return (
-    <div className="border-[#bd5d38] rounded-md text-[#666b6f] border-[1px] p-1 cursor-pointer transition 200 ease-in-out hover:-translate-y-2">
+    <div className="border-[#bd5d38] rounded-md  border-[1px] p-1 cursor-pointer transition 200 ease-in-out hover:-translate-y-2">
       <img src={img} alt="SnapHunt" />
       <div className="flex justify-between items-center">
         <div>
@@ -50,7 +50,7 @@ export default function Projects() {
         >
           Projects
         </h2>
-        <div className="projects grid grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] gap-10">
+        <div className="projects grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-10">
           <ProjectCard
             title="Snap-Hunt"
             img={snaphunt}
