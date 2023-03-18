@@ -1,4 +1,4 @@
-function Icons(){
+function Icons() {
   return (
     <ul className="icons flex gap-5 w-[20%] min-w-[200px] mt-[5rem] h-[100px]">
       <li>
@@ -66,18 +66,24 @@ function About() {
             </a>
           </h3>
         </div>
+        <div className="info w-[90%] sm:w-[80%]">
+          <p className=" text-[#666b6f] mb-1" style={{ fontFamily: "Open sans" }}>
+            I am experienced in leveraging web frameworks to provide a robust
+            synopsis for high level overviews. Iterative approaches to corporate
+            strategy foster collaborative thinking to further the overall value
+            proposition.
+          </p>
+          <p>
+            {" "}
+            I am dedicated to producing high-quality and{" "}
+            <span className="text-[#bd5d38]"> scalable </span>
+            solutions by adhering to{" "}
+            <span className="text-[#bd5d38]"> clean coding </span> practices. By
+            prioritizing clean, maintainable code, I ensure that my projects are
+            efficient and reliable for long-term success.
+          </p>
+        </div>
 
-        <p className=" text-[#666b6f]" style={{ fontFamily: "Open sans" }}>
-          I am experienced in leveraging web frameworks to provide a robust
-          synopsis for high level overviews. Iterative approaches to corporate
-          strategy foster collaborative thinking to further the overall value
-          proposition. I am dedicated to producing high-quality and{" "}
-          <span className="text-[#bd5d38]"> scalable </span>
-          solutions by adhering to{" "}
-          <span className="text-[#bd5d38]"> clean coding </span> practices. By
-          prioritizing clean, maintainable code, I ensure that my projects are
-          efficient and reliable for long-term success.
-        </p>
         <Icons />
       </div>
     </section>

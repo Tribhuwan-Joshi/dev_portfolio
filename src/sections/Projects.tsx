@@ -43,7 +43,7 @@ export default function Projects() {
       id="projects"
       className="min-h-full border-b-[1px] p-[3rem] flex   flex-col border-[#dee2e6] text-[#545b61]"
     >
-      <div className="content sape-y-12 w-[85%] ">
+      <div className="content sape-y-12 w-[80%] ">
         <h2
           className="text-[3.5rem] uppercase font-[700] mb-[3rem] text-[#343a40]"
           style={{ fontFamily: "'Saira Extra Condensed',serif" }}

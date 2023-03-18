@@ -92,7 +92,7 @@ function Workflow() {
       >
         Workflow
       </h3>
-      <ul className="space-y-2 text-[1.2rem]">
+      <ul className="space-y-2  text-[1.1rem] sm:text-[1.2rem]">
         <li className="relative">
           <BsCheck2 className="inline absolute top-1 -left-2 -ml-5" />
           Accessibility Scope Development
@@ -140,7 +140,7 @@ function Skills() {
           SKILLS
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 w-full gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-16">
           <Tools />
           <Workflow />
         </div>
