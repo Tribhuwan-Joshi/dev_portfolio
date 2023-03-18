@@ -52,7 +52,7 @@ export default function Certifications() {
   return (
     <section
       id="certifications"
-      className="min-h-full text-gray-700  border-b-[2px] p-[3rem]  flex  sm:items-center border-[#dee2e6]"
+      className="min-h-full  border-b-[2px] p-[3rem]  flex  sm:items-center border-[#dee2e6]"
     >
       <div className="content">
         <h2
