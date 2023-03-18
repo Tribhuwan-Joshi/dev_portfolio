@@ -130,7 +130,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-[100%] border-b-[1px] p-[3rem]     border-[#dee2e6]"
+      className="min-h-[100%] border-b-[2px] p-[3rem]     border-[#dee2e6]"
     >
       <div className="content " style={{ fontFamily: "'Open Sans',serif" }}>
         <h2

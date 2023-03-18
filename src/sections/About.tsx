@@ -42,7 +42,7 @@ function About() {
   return (
     <section
       id="about"
-      className="min-h-[100%] border-b-[1px] p-[3rem]  flex  items-center sm:items-center border-[#dee2e6]"
+      className="min-h-[100%] border-b-[2px] p-[3rem]  flex  items-center sm:items-center border-[#dee2e6]"
     >
       <div className="content space-y-12">
         <div className="intro">
@@ -67,7 +67,7 @@ function About() {
           </h3>
         </div>
         <div className="info w-[90%] sm:w-[80%]">
-          <p className=" text-[#666b6f] mb-1" style={{ fontFamily: "Open sans" }}>
+          <p className="  mb-1" style={{ fontFamily: "Open sans" }}>
             I am experienced in leveraging web frameworks to provide a robust
             synopsis for high level overviews. Iterative approaches to corporate
             strategy foster collaborative thinking to further the overall value

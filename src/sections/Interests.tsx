@@ -4,7 +4,7 @@ function Interests() {
   return (
     <section
       id="interests"
-      className="min-h-[100%] border-b-[1px] p-[3rem]  flex  sm:items-center border-[#dee2e6]"
+      className="min-h-[100%] border-b-[2px] p-[3rem]  flex  sm:items-center border-[#dee2e6]"
     >
       <div className="content">
         <h2

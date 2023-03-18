@@ -41,7 +41,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="min-h-full border-b-[1px] p-[3rem] flex   flex-col border-[#dee2e6] text-[#545b61]"
+      className="min-h-full border-b-[2px] p-[3rem] flex   flex-col border-[#dee2e6] text-[#545b61]"
     >
       <div className="content sape-y-12 w-[80%] ">
         <h2
