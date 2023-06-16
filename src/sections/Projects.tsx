@@ -50,6 +50,13 @@ export default function Projects() {
         >
           Projects
         </h2>
+<ProjectCard
+            title="Promp-Hub"
+            img={"https://raw.githubusercontent.com/Tribhuwan-Joshi/promptHub/main/public/assets/images/promptHub.png"}
+            live="https://prompt-hub-three.vercel.app/"
+            github="https://github.com/Tribhuwan-Joshi/promptHub"
+            details="Next JS site to share and explore best AI prompts to create something awesome"
+          />
         <div className="projects grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-10">
           <ProjectCard
             title="Snap-Hunt"
@@ -72,13 +79,7 @@ export default function Projects() {
             github="https://github.com/Tribhuwan-Joshi/memory-card"
             details="Challenge your brain with cute dog cards"
           />
-          <ProjectCard
-            title="Weather Craft"
-            img={weatherapp}
-            live="https://tribhuwan-joshi.github.io/weather-app/"
-            github="https://github.com/Tribhuwan-Joshi/weather-app"
-            details="Weather app with minecraft theme using openweather API"
-          />
+          
         </div>
       </div>
       <p className="my-10">
@@ -90,13 +91,7 @@ export default function Projects() {
           github
           <span className="w-full  h-[0.014rem] bg-blue-800 absolute transition duration-200  scale-x-0 hover:scale-x-100 ease-in-out group-hover:scale-x-100 bottom-[2px] left-0 "></span>
         </a>
-        {/* <a
-          href="https://github.com/Tribhuwan-Joshi"
-          className="text-blue-800 lol"
-        >
-          github.
-          <span className="w-full h-[1px] bg-blue-800 absolute transition duration-200 scale-x-0  ease-in-out group-hover:scale-x-100 bottom-2 left-0 "></span>
-        </a> */}
+        
       </p>
     </section>
   );
