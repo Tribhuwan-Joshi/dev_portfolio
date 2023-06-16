@@ -1,12 +1,10 @@
 import React from "react";
-import netflix from "../assets/netflix.png"
+import netflix from "../assets/netflix.png";
 import snaphunt from "../assets/snaphunt.png";
 import memory from "../assets/memory.png";
 
-
-
 import { VscLinkExternal } from "react-icons/vsc";
-import {BsGithub} from "react-icons/bs"
+import { BsGithub } from "react-icons/bs";
 type ProjectProps = {
   title: string;
   img: string;
@@ -28,7 +26,7 @@ function ProjectCard({ title, img, details, github, live }: ProjectProps) {
             <VscLinkExternal size="1.3rem" />
           </a>
           <a href={github} title="code" target="_blank" rel="noreferrer">
-           <BsGithub size="1.3rem"/>
+            <BsGithub size="1.3rem" />
           </a>
         </div>
       </div>
@@ -49,14 +47,17 @@ export default function Projects() {
         >
           Projects
         </h2>
-<ProjectCard
+
+        <div className="projects grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-10">
+          <ProjectCard
             title="Prompt-Hub"
-            img={"https://raw.githubusercontent.com/Tribhuwan-Joshi/promptHub/main/public/assets/images/promptHub.png"}
+            img={
+              "https://raw.githubusercontent.com/Tribhuwan-Joshi/promptHub/main/public/assets/images/promptHub.png"
+            }
             live="https://prompt-hub-three.vercel.app/"
             github="https://github.com/Tribhuwan-Joshi/promptHub"
             details="Next JS site to share and explore best AI prompts to create something awesome"
           />
-        <div className="projects grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-10">
           <ProjectCard
             title="Snap-Hunt"
             img={snaphunt}
@@ -78,7 +79,6 @@ export default function Projects() {
             github="https://github.com/Tribhuwan-Joshi/memory-card"
             details="Challenge your brain with cute dog cards"
           />
-          
         </div>
       </div>
       <p className="my-10">
@@ -90,7 +90,6 @@ export default function Projects() {
           github
           <span className="w-full  h-[0.014rem] bg-blue-800 absolute transition duration-200  scale-x-0 hover:scale-x-100 ease-in-out group-hover:scale-x-100 bottom-[2px] left-0 "></span>
         </a>
-        
       </p>
     </section>
   );
