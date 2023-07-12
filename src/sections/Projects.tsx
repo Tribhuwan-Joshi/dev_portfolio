@@ -51,7 +51,7 @@ export default function Projects() {
           <ProjectCard
             title="Prompt-Hub"
             img={
-              "https://raw.githubusercontent.com/Tribhuwan-Joshi/promptHub/main/public/assets/images/promptHub.png"
+              "https://gcdnb.pbrd.co/images/u4Y1035bOcuf.png?o=1"
             }
             live="https://prompt-hub-three.vercel.app/"
             github="https://github.com/Tribhuwan-Joshi/promptHub"
