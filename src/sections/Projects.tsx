@@ -1,5 +1,4 @@
 import React from "react";
-import netflix from "../assets/netflix.png";
 import snaphunt from "../assets/snaphunt.png";
 import memory from "../assets/memory.png";
 
