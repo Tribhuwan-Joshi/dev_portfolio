@@ -66,11 +66,11 @@ export default function Projects() {
             details="A photo tagging game with global leaderboard"
           />
           <ProjectCard
-            title="Netflix 2.0"
-            img={netflix}
-            live="https://netflix-a53c5.web.app/"
-            github="https://github.com/Tribhuwan-Joshi/Netflix-2.0"
-            details="Netflix clone with Firebase authentication"
+            title="Club House"
+            img="https://gcdnb.pbrd.co/images/wZopeM2OhljK.png?p=1"
+            live="https://club-house.up.railway.app/catalog"
+            github="https://github.com/Tribhuwan-Joshi/club-house/tree/main"
+            details="A secure old school media platform with built with Express and Passport JS"
           />
           <ProjectCard
             title="Memory Cards"
